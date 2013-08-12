@@ -17,6 +17,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'rspec-rails'
+  gem 'ZenTest', '4.6.0'
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
 end
